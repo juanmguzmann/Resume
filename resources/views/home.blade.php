@@ -17,7 +17,7 @@
   <body>
     <div class="container-fluid">
       <div class="fondoConNombre row">
-        <h1 class="namecolor">Juan Marcos Guz</h1>
+        <h1 class="namecolor">Juan Marcos Guzman</h1>
         <h2 class="subtitulo col-12 wow flash">Desarrollador Web Full Stack</h2>
         @if(session()->has('message'))
           <div class="alert alert-success">
