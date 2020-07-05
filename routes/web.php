@@ -16,7 +16,6 @@ Route::get('/', function () {
 });
 Route::get('/instalar', function () {
     Artisan::call("storage:link");
-    Artisan::call("migrate");
 });
 
 
