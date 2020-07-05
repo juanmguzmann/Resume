@@ -1,0 +1,149 @@
+/* html {
+    scroll-behavior: smooth;
+  } */
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+nav{
+    text-align: center;
+}
+body{
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #e6e6e6;
+    /* font-family: 'Baloo Bhaina 2', cursive; */
+    /* font-family: 'Baloo Paaji 2', cursive; */
+}
+.namecolor{
+    color: white;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+}
+.subtitulo{
+    color: white;
+    /* font-family: 'Baloo 2', cursive; */
+    font-size: 25px;
+    text-align: center;
+}
+.header0{
+    position: sticky;
+    top: 0;
+    background-color: #0E0E2B;
+    z-index: 1;
+}
+.header1{
+    position: sticky;
+    top: 0;
+    background-color: #0E0E2B;
+    z-index: 1;
+}
+.refheader{
+    transition: 500ms ease;
+}
+.fondoConNombre{
+    /* background-image: url(/storage/images/hola.jpg); */
+    background-color: #0a0a1d;
+    background-size: cover;
+    border-bottom: 5px solid #0000;
+    height: 85vh;
+    justify-content: center;
+    position: relative;
+}
+.divfotoperfil{
+        width: 250px;
+        height: 250px;
+        background-image: url(/storage/images/juan.jpeg);
+        background-size: inherit;
+        border-radius: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 100%;
+        left: 50%;
+}
+.center{
+    display: block;
+    text-align: center;
+}
+.informacion{
+    padding:5%;
+    font-size:20px;
+}
+.tituloinfo{
+    font-size: 40px;
+    background-color: black;
+}
+.iconos{
+    font-size: 45px;
+}
+.sepiconos{
+    margin-right: 10px;
+}
+.sepiconos:last-child{
+    margin-right: 0;
+}
+.linkedin{
+    color: #0077b5;
+}
+.diviconos{
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+  .institucion{
+      font-size: 15px;
+  }
+  .espacios{
+      letter-spacing: 5px;
+  }
+  .bold{
+    font-weight: 500;
+  }
+.divcontacto{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+input{
+    text-align: center;
+}
+footer{
+    padding-top: 2%;
+    background-color: #0a0a1d94;
+    color: white;
+}
+footer ul, h4{
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .divcontacto{
+    padding-left: 20%;
+    padding-right: 20%;
+    }
+    /* .divfotoperfil{
+        width: 180px;
+        height: 180px;
+    } */
+  }
+  @media only screen and (max-width: 425px) {
+    .informacion{
+        margin-top: 20px;
+    }
+    .divfotoperfil{
+        width: 190px;
+        height: 190px;
+    }
+  }
+
