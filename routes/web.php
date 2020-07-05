@@ -14,5 +14,10 @@
 Route::get('/', function () {
     return view('home');
 });
+Route::get('/instalar', function () {
+    Artisan::call("storage:link");
+    Artisan::call("migrate");
+});
+
 
 Route::post('/contacto', 'ContactFormController@store');
