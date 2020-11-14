@@ -42,9 +42,8 @@
     <div class="row">
       <div class="informacion center col-12">
         <br>
-        <p>Me considero un estudiante muy dedicado, con muchas ganas de seguir aprendiendo. Actualmente busco insertarme
-          laboralmente en el mundo del desarrollo web para poner en practica las herramientas y conocimientos adquiridos
-          durante mi formación.</p>
+        <p>Me considero una persona productiva, con muchas ganas de seguir adquiriendo conocimientos. Constantemente en
+          búsqueda de nuevos desafíos.</p>
         <p>| 04/10/1999 |</p>
         <p>| juanmguzmann@gmail.com |</p>
         <a href="https://www.linkedin.com/in/juanmguzman/" class="sepiconos"><i
